@@ -22,10 +22,10 @@ export default function BackgroundBirds() {
         color2: "#BF1BBC",
         birdSize: 0.8,
         wingSpan: 40,
-        speedLimit: 4.0,
+        speedLimit: 5.0,
         separation: 50,
-        alignment: 50,
-        cohesion: 50,
+        alignment: 60,
+        cohesion: 70,
       });
     }
 
