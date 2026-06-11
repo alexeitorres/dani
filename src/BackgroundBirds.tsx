@@ -6,7 +6,7 @@ export default function BackgroundBirds() {
   const vantaRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    let effect = null;
+    let effect: any = null;
 
     if (vantaRef.current) {
       effect = BIRDS.default({
