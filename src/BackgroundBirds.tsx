@@ -25,7 +25,7 @@ export default function BackgroundBirds() {
         speedLimit: 5.0,
         separation: 50,
         alignment: 60,
-        cohesion: 70,
+        cohesion: 60,
       });
     }
 
